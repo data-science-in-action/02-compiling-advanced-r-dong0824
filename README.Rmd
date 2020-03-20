@@ -1,0 +1,71 @@
+---
+title: "question"
+author: "dongjie"
+date: "2020/3/17"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+question1:Creating R Markdown documents requires updated versions of the following    packages:highr,markdown,stringer,yaml,htmltools,knitr,jsonlite,base64enc,mime,rmarkdown?
+
+answer:install these packages now
+
+question2:there is no package called 'bookdown';there is no package called 'sloop';there is no package called 'lobstr';there is no package called 'dplyr……
+
+answer:install.packages()
+
+question3:cannot open URL
+
+answer:Internet option advanced security SSLandTLS 
+
+question4:Failed to install 'sloop' from GitHub
+
+answer:library(devtools)
+
+question5:can not find Rtools
+
+answer:install Rtools from https://cran.r-project.org/bin/windows/Rtools/
+
+question6:installation of package 'sloop' had non-zero exit status;installation of package 'emo' had non-zero exit status
+
+answer:install.packages("sloop", dependencies = TRUE);install.packages("emo", dependencies= TRUE)
+       
+question7:Quitting from lines 223-235 (Introduction.Rmd)
+
+answer:contributors <- read.csv("contributors.csv", stringsAsFactors = FALSE, encoding =  "UTF-8")
+
+question8:Quitting from lines 38-40 (Perf-measure.Rmd) Error in library(profvis
+
+answer:Install.packages(“profvis”)
+
+question9:Quitting from lines 38-40 (Perf-measure.Rmd) Error in library(bench) 
+
+answer:install.packages("bench")
+
+question10:Quitting from lines 233-234 (Perf-measure.Rmd) 
+ `ggbeeswarm` must be installed to use `type = "beeswarm"` option.
+
+answer:install.packages("ggbeeswarm")
+
+question11:Package fontspec Error: The font "Inconsolata" cannot be found
+
+answer:install inconsolata
+
+question12:! Sorry, butC:\Users\DELL\AppData\Local\Programs\MIKTEX~1.9\miktex\bin\x64\xelatex.exe did not succeed.
+
+! The log file hopefully contains the information to get MiKTeX going again:
+
+!   C:\Users\DELL\AppData\Local\MiKTeX\2.9\miktex\log\xelatex.log
+
+! xelatex: major issue: So far, you have not checked for MiKTeX updates.
+
+answer:
+
+
